@@ -7,7 +7,8 @@ export default {
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
    */
-  target: "server",
+  // target: "server",
+  target: "static",
   /*
    ** Headers of the page
    ** See https://nuxtjs.org/api/configuration-head
@@ -56,10 +57,24 @@ export default {
       {
         config: {
           // Add your config firebase's data here
+          apiKey: "AIzaSyDmL5QdjEV-CWRYDizB4MvaUL9k6_N9UxE",
+          authDomain: 'documentation-starter.firebaseapp.com',
+          projectId: 'documentation-starter',
+          storageBucket: 'documentation-starter.appspot.com',
+          messagingSenderId: '981626355669',
+          appId: '1:981626355669:web:36741de01cf09b86cfc75c',
+          measurementId: 'G-GRGNTT15KB'
         },
         services: {
           auth: true, // Just as example. Can be any other service.
           firestore: true,
+          functions: true,
+          storage: true,
+          database: true,
+          messaging: true,
+          performance: true,
+          analytics: true,
+          remoteConfig: true
         },
       },
     ],

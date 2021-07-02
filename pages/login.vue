@@ -2,14 +2,14 @@
   <div class="Login--page position-relative">
     <Notification v-if="getNotification" :content="getNotification" />
     <div v-if="getCurrentUser">
-      <Header />
+      <NavHeader />
     </div>
     <div v-else class="container pt-5" style="max-width: 300px;">
       <b-button class="bg-facebook" variant="facebook">Login with Facebook</b-button>
       <hr>
-      <Login v-if="status === 'login'" />
-      <Register v-if="status === 'register'" />
-      <Reset v-if="status === 'reset'" @backToLogin="status = 'login'" />
+      <AuthLogin v-if="status === 'login'" />
+      <AuthRegister v-if="status === 'register'" />
+      <AuthReset v-if="status === 'reset'" @backToLogin="status = 'login'" />
       <div class="d-flex flex-column flex-wrap">
         <p v-for="(statusName, statusIndex) in statusList" :key="statusIndex" class="text-primary m-0 cursor-pointer" @click="status = statusIndex">{{ statusName }}</p>
       </div>
