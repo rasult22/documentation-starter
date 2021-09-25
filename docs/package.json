@@ -1,0 +1,19 @@
+{
+  "name": "documentation-example",
+  "version": "0.0.1",
+  "description": "Just playing around with vuepress",
+  "main": "index.js",
+  "authors": {
+    "name": "Rassul",
+    "email": "rasul.turganoff@gmail.com"
+  },
+  "repository": "/documentation-example",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
