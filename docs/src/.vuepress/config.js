@@ -38,6 +38,10 @@ module.exports = {
         link: '/guide/',
       },
       {
+        text: 'Whatever',
+        link: '/whatever/'
+      },
+      {
         text: 'Config',
         link: '/config/'
       },
