@@ -6,6 +6,7 @@ tags:
   - Vue
 author: rasult22
 location: Almaty
+summary: You don't need to read this article :D
 ---
 
 > This is official blog theme

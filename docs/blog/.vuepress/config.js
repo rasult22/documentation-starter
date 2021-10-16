@@ -1,3 +1,4 @@
+const path = require('path');
 const { description } = require('../../package')
 
 module.exports = {
@@ -59,11 +60,11 @@ module.exports = {
       ],
       copyright: [
         {
-          text: 'Privacy Policy',
+          text: 'Kazakhstan, Almaty',
           link: 'https://policies.google.com/privacy?hl=en-US',
         },
         {
-          text: 'MIT Licensed | Copyright © 2018-present Vue.js',
+          text: 'Copyright © 2021-present @rasult22',
         },
       ]
     },
@@ -73,20 +74,10 @@ module.exports = {
         link: '/posts/',
       },
     ],
-    // sidebar: {
-    //   '/guide/': [
-    //     {
-    //       title: 'Guide',
-    //       collapsable: false,
-    //       children: [
-    //         '',
-    //         'using-vue',
-    //       ]
-    //     }
-    //   ],
-    // }
   },
-
+  alias: {
+    "@assets": path.resolve(__dirname, "../assets")
+  },
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
