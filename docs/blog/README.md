@@ -1,12 +1,18 @@
 ---
-title: About
+title: Home
+getStarted: hi
 ---
+<Profile />
 
-<h1 class="beginning"> Hi-fi! My buddies, freakin dev on the line 👨🏻</h1>
+<h1 class="beginning"> Ahoy, matey! freakin dev on the line 👨🏻</h1>
 
-I'm gonna show you some knowledge about Web Development world. Follow me buddy!
+I'm gonna share some knowledge with you. <br>
+So remember that knowledge is power. And as a Uncle Sam said:
 
-<!-- <GetStarted/> -->
+> With great power comes great responsibility
+
+<GetStarted/>
+<!-- [Show articles](/posts/) -->
 
 <style lang="stylus" scoped>
 p
